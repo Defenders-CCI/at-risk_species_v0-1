@@ -1,0 +1,143 @@
+/*Some custom css to modify the standard Shiny values. */
+
+.modal-lg-dialog {
+    width: 75%;
+}
+
+.modal-sm-dialog {
+    width: 40%;
+}
+
+.box {
+    margin-bottom: 0;
+}
+
+.box.box-warning {
+    border-top-color: #ffffff;
+}
+
+.box.box-primary {
+    border-top-color: #0A4783;
+}
+.box.box-solid.box-primary {
+  border: 1px solid #0A4783;
+}
+
+.box.box-solid.box-primary > .box-header {
+  color: #ffffff;
+  background-color: #0A4783;
+}
+.box.box-solid.box-primary > .box-header a,
+.box.box-solid.box-primary > .box-header .btn {
+  color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #0A4783;
+    border-color: #367fa9;
+}
+
+.bg-orange {
+    background-color: #f49831 !important;
+}
+
+.bg-blue {
+    background-color: #0A4783 !important;
+}
+
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.outer {
+    position: fixed;
+    background-color: white;
+    top: 41px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+div.graph-outer {
+    /* position: fixed; */
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Open Sans';
+  /* font-family: 'Helvetica Neue', Helvetica; */
+  font-weight: 300;
+}
+h1, h2, h3, h4 { font-weight: 400; }
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 0 0 0;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.9;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.97;
+  transition-delay: 0;
+}
+
+#help-button-box {
+  /* Appearance */
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  padding: 0 0 0 0;
+  /* Fade out while not hovering */
+  opacity: 0.85;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+
+#map-filt-box {
+  /* Appearance */
+  background-color: white;
+  border-color: #d9d9d9;
+  /* box-shadow: 2px 2px 2px #888888; */
+  padding: 20px 20px 20px 20px;
+  /* Fade out while not hovering */
+  opacity: 0.9;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#map-filt-box:hover {
+  /* Fade in while hovering */
+  opacity: 0.98;
+  transition-delay: 0;
+}
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
+
+.bottom-align {
+    position: absolute;
+    bottom: 12px;
+}
