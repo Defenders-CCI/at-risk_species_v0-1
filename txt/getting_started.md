@@ -12,5 +12,5 @@ Would you like to work on this app, really flesh out the possibilities? You can 
 
 ### _Find a bug?_
 
-If you believe you have found a bug, please submit an Issue at the [project's GitHub repository](https://github.com/Defenders-ESC/at-risk_species). Thank you for your input and patience!
+If you believe you have found a bug, please submit an Issue at the [project's GitHub repository](https://github.com/Defenders-ESC/at-risk_species_v0-1). Thank you for your input and patience!
 
