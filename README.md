@@ -1,6 +1,6 @@
 ## A basic app for exploring candidate/proposed species data.
 
-[Test the app here](https:/defend-esc-dev.org/shiny/open/at-risk_species_v0-1/)
+[Test the app here](https://defend-esc-dev.org/shiny/open/at-risk_species_v0-1/)
 
 This very incomplete app builds off of a Microsoft Access database of at-risk species created by U.S. Fish and Wildlife Service in the Southeast. See [their site](https://www.fws.gov/southeast/candidateconservation/finder.html) for more information about the database. Feel free to follow the Contributing guidelines below or [contact us](mailto:esa@defenders.org).
 
