@@ -25,17 +25,11 @@ sidebar <- dashboardSidebar(disable=TRUE)
 #############################################################################
 # Define the page(s) with dashboardBody
 body <- dashboardBody(
-    bsModal(id="instructions",
-            title="How do I use this app?",
+    bsModal(id="about",
+            title="What is this?",
             trigger="get_started",
             includeMarkdown("txt/getting_started.md"),
             size="large"
-    ),
-    bsModal(id="limits_outcomes",
-            title="Know the limitations",
-            trigger="give_limits",
-            includeMarkdown("txt/outcomes_limits.md"),
-            size="small"
     ),
     bsModal(id="datatable_help",
             title="Using the data table",
@@ -61,6 +55,14 @@ body <- dashboardBody(
     ),
     navbarPage("Southeast Candidate Species",
         species_page,
+        tabPanel("About",
+            column(4),
+            column(4,
+                br(), br(),
+                includeMarkdown("txt/getting_started.md")
+            ),
+            column(4)
+        ),
         # chart_page,
         # data_page,
         inverse=TRUE,
